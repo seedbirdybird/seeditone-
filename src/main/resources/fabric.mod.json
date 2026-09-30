@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "seeditone",
+  "version": "1.0.0",
+  "name": "Seeditone",
+  "description": "Auto schematic builder with a themeable GUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["seed.seeditone.SeeditoneClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
